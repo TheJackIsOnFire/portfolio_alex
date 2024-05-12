@@ -22,20 +22,20 @@ export default class About extends Component {
           <div className="about-header-text-skills" >
             
             <div className="about-text-skills">
-              <section className="about-text">
+            <section className="about-text">
                 <p className="about-text-p about-text-p-1">Olá, </p>
                 
                 <p className="about-text-p about-text-p-2">meu nome é <span>Danielle Silva</span></p>
                 
                 <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>full-stack</span> e atuo como Desenvolvedora Front-end na <span>Inteligov</span> !</p>
                 
-                <p className="about-text-p about-text-p-3">Atualmente estou aprimorando minhas habilidades em <span>ReactJS</span> e em <span>UX design</span>, com o objetivo de me especializar em <span>Fron-end</span>, e aprendendo <span>React Native</span>, <span>Ruby</span> e <span>Ruby on Rails</span> que são muito utilizados na minha atual empresa</p>
+                <p className="about-text-p about-text-p-3">Possuo experiência sólida em <span>JavaScript</span>, <span>ReactJS</span>, <span>TypeScript</span>, <span>React Native</span> e <span>Sass/CSS</span>, estou constantemente aprimorando minha habilidade em criar interfaces de usuário elegantes e funcionais, muitas vezes utilizando o <span>Figma</span> para criar wireframes e protótipos. Além disso, estou familiarizada com ferramentas essenciais como NodeJS, Bootstrap, MUI, Jest, Cypress, SQL e Docker para desenvolvimento de aplicativos robustos</p>
                 
-                <p className="about-text-p about-text-p-5"><span>Até o momento me identifico mais com front-end e pretendo continuar com esse foco, mas acho importante explorar os horizontes de back-end também.</span></p>
+                <p className="about-text-p about-text-p-5">Estou sempre buscando expandir meu conjunto de habilidades e atualmente estou estudando <span>NextJS</span>, bem como <span>Ruby</span> e <span>Ruby on Rails</span> para adicionar novas ferramentas ao meu arsenal de desenvolvimento.</p>
+                
+                <p className="about-text-p about-text-p-5">Estou aberta a oportunidades de colaboração, desafios emocionantes e novas conexões na indústria de tecnologia.</p>
 
-                <p className="about-text-p about-text-p-4"><span>Fun fact</span>: Sou bióloga por formação e por muito tempo não imaginava um futuro trabalhando na área da tecnologia! Essa impressão não durou nem o primeiro mês de curso na <span>Trybe</span>, foi só dar uma chance para acabar apaixonada pela área, sinto que encontrei meu caminho!</p>
-                
-                <p className="about-text-p about-text-p-6">Espero que goste do meu portfólio!</p>
+                <p className="about-text-p about-text-p-6"><span>Sinta-se à vontade para me chamar para conversar!</span></p>
               </section>
               <div className="about-image">
             <img className="about-img" src={image} alt="profile" /> 
