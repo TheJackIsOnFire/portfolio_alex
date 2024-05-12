@@ -20,6 +20,26 @@ const hardSkillsIcons = [
     title: 'CSS' 
   },
   {
+    icon: 'ri:nextjs-fill',
+    className: 'about-icon',
+    title: 'NextJS' 
+  },
+  {
+    icon: 'solar:figma-bold',
+    className: 'about-icon',
+    title: 'Figma' 
+  },
+  {
+    icon: 'cib:typescript',
+    className: 'about-icon',
+    title: 'Typescript' 
+  },
+  {
+    icon: 'tabler:brand-react-native',
+    className: 'about-icon',
+    title: 'React Native' 
+  },
+  {
     icon: 'tabler:brand-mantine',
     className: 'about-icon',
     title: 'Mantine' 
@@ -74,16 +94,6 @@ const hardSkillsIcons = [
     icon: 'bxl:nodejs',
     className: 'about-icon',
     title: 'NodeJS' 
-  },
-  {
-    icon: 'cib:typescript',
-    className: 'about-icon',
-    title: 'Typescript' 
-  },
-  {
-    icon: 'tabler:brand-react-native',
-    className: 'about-icon',
-    title: 'React Native' 
   },
   {
     icon: 'cib:ruby',
