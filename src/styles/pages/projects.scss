@@ -75,6 +75,12 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    padding-bottom: 8%;
+
+    @include respond(tab-port) {
+      padding-bottom: 16%;
+    }
   }
 
   &-individual-thumbnail {
@@ -90,6 +96,16 @@
     padding-bottom: 2%;
     overflow: hidden;
     width: 27%;
+
+    //Comportamento do ultimo elemento
+    &:last-child {
+      margin-right: auto;
+      margin-left: 6%;
+
+      @include respond(tab-land) {
+        margin: 1.5%;
+      }
+    }
 
     @include respond(tab-land) {
       width: 40%;
@@ -108,6 +124,8 @@
       font-size: 2rem;
       margin-top: 5%;
       font-weight: 600;
+      padding: 0 12px;
+      text-align: center;
     }
 
     & a {
@@ -132,13 +150,14 @@
       border-radius: 50%;
       background-color: darken($color-gray-dark, 4%);
       text-decoration: none;
-      transition: all 0.4s;
+      transition: all ease-in-out 0.4s;
 
       &:hover {
         box-shadow: 0 4px 8px 0 rgba($color-black, 0.9),
           0 6px 20px 0 rgba($color-black, 0.9);
         color: $color-blue;
         transform: translateY(-5px) !important;
+        transition: all ease-in-out 0.2s;
       }
     }
 
