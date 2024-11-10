@@ -1,176 +1,116 @@
-import primeiroPortfolio from '../assets/primeiro-portfolio.mp4';
-import trybewarts from '../assets/trybewarts-video.mp4';
-import pixelArt from '../assets/pixel-art-video.mp4';
-import toDoList from '../assets/to-do-list-video.mp4';
-import shoppingCart from '../assets/shopping-cart-video.mp4';
-import solarSystem from '../assets/solar-system-video.mp4';
-import tryunfo from '../assets/killertrunfo.mp4';
-import trybetunes from '../assets/trybetunes.mp4';
-import trybewallet from '../assets/TrybeWallet.mp4';
-import appDeReceitas from '../assets/app-de-receitas.mp4';
-import natours from '../assets/Natours.mp4';
-import dragNdrop from '../assets/dragNdrop.mp4';
-
-
-import imgPrimeiroPortfolio from '../assets/img-primeiro-portfolio.webp';
-import imgTrybewarts from '../assets/img-trybewarts-img.webp';
-import imgPixelArt from '../assets/img-pixel-art.webp';
-import imgToDoList from '../assets/img-to-do-list.webp';
-import imgShoppingCart from '../assets/img-shopping-cart.webp';
-import imgSolarSystem from '../assets/img-solar-system.webp';
-import imgTryunfo from '../assets/img-tryunfo.webp';
-import imgTrybetunes from '../assets/img-trybetunes.webp';
-import imgTrybeWallet from '../assets/img-trybewallet.webp';
-import imgAppDeReceitas from '../assets/img-app-de-receitas.webp';
-import imgNatours from '../assets/img-natours.webp';
-import imgDragNdrop from '../assets/img-dragNdrop.webp';
-
+import loja_suplementos from "../assets/img/loja_suplementos.png";
+import sorteador_numeros from "../assets/img/sorteador_numeros.png";
+import clone_disney_plus from "../assets/img/clone_disney_plus.png";
+import clone_planeta_macacos from "../assets/img/clone_planeta_macacos.png";
+import evento_ebac from "../assets/img/evento_ebac.png";
+import lp_dbzsz from "../assets/img/lp_dbzsz.png";
+import lista_tarefas from "../assets/img/lista_tarefas.png";
+import calculadora_imc from "../assets/img/calculadora_imc.png";
+import lista_contatos from "../assets/img/lista_contatos.png";
+import efood from "../assets/img/efood.png";
 
 const allProjects = [
   {
-    id: 12,
-    name: 'Drag N Drop',
-    moduleCourse: 'Front-end',
-    img: imgDragNdrop,
-    linkGitHub: 'https://github.com/daniellelsilva/drag-n-drop',
-    linkPage: 'https://daniellelsilva.github.io/drag-n-drop/',
-    linkVideo: dragNdrop,
-    technologies: 'Sass, React, JSX, Dropzone, HTML5',
-    text: 'Este foi um desafio independente onde o objetivo foi criar uma zona "drag and drop" que aceitasse somente arquivos CSV. Além da funcionalidade, foquei na descoberta de uma biblioteca que eu ainda não conhecia (Dropzone) e busquei uma boa usabilidade e aparência na aplicação.'
+    id: 10,
+    name: "e-food",
+    img: efood,
+    linkGitHub: "https://github.com/TheJackIsOnFire/e-food.git",
+    linkPage: "https://e-food-ebon.vercel.app/",
+    technologies:
+      "Hooks, React, JSX, CSS3, HTML5, Redux, JavaScript, TypeScript, Vite",
+    text: "Este é o projeto final do curso de Front-End, que integra todo o conhecimento adquirido ao longo do curso, desde os fundamentos de HTML, CSS e JavaScript até as configurações mais avançadas do VS Code, como EditorConfig, Prettier e ESLint. O projeto também abrange as boas práticas de programação, organização do código e o uso de tecnologias mais avançadas, como Vite, TypeScript, React, Redux, Redux Toolkit Query, entre outras. O objetivo do projeto foi desenvolver uma plataforma de delivery que gerenciasse todo o processo de compra, integração e envio de informações para o back-end, proporcionando uma experiência completa e funcional.",
   },
 
   {
-    id: 11,
-    name: 'Natours',
-    moduleCourse: 'Front-end',
-    img: imgNatours,
-    linkGitHub: 'https://github.com/daniellelsilva/natours',
-    linkPage: 'https://daniellelsilva.github.io/natours/',
-    linkVideo: natours,
-    technologies: 'Sass, React, JSX, CSS3, HTML5',
-    text: 'Este projeto foi desenvolvido no curso de CSS avançado e Sass da Udemy ministrado por Jonas Schmedtmann. O objetivo do projeto e das aulas foi desenvolver a página de uma empresa de turismo fictícia chamada Natours, aplicando conceitos avançados de CSS e Sass'
-  },
-  
-  {
-    id: 10,
-    name: 'Cook It',
-    moduleCourse: 'Front-end',
-    img: imgAppDeReceitas,
-    linkGitHub: 'https://github.com/daniellelsilva/cook-it',
-    linkPage: 'https://daniellelsilva.github.io/cook-it/#/',
-    linkVideo: appDeReceitas,
-    technologies: 'Context, Hooks, React, JSX, CSS3, HTML5',
-    text: 'Este foi o último projeto de Front-end, o objetivo foi criar um app de receitas de dirnks e comidas consumindo duas APIs e utilizando ferramentas como react, hooks e context. O projeto foi realizado em grupo, os integrantes estão citados no GitHub'
-  },
-  
-  {
     id: 9,
-    name: 'TrybeWallet',
-    moduleCourse: 'Front-end',
-    img: imgTrybeWallet,
-    linkGitHub: 'https://github.com/daniellelsilva/TrybeWallet',
-    linkPage: 'https://daniellelsilva.github.io/TrybeWallet/#/',
-    linkVideo: trybewallet,
-    technologies: 'Redux, React, JSX, CSS3, HTML5',
-    text: 'A proposta do projeto foi criar o TrybeWallet, uma carteira de controle de gastos com conversor de moedas, possibilitando adicionar e remover gastos, visualizar a tabela com gastos e total gasto em Reais.'
+    name: "Lista de contatos",
+    img: lista_contatos,
+    linkGitHub: "https://github.com/TheJackIsOnFire/Lista_de_contatos.git",
+    linkPage: "https://lista-de-contatos-wine-eight.vercel.app/",
+    technologies: "Redux, React, JSX, CSS3, HTML5, TypeScript, JavaScript",
+    text: "O objetivo deste projeto era criar uma lista de contados usando as tecnologias: Vite, React, TypeScript e o Redux.",
   },
-  
+
   {
     id: 8,
-    name: 'TrybeTunes',
-    moduleCourse: 'Front-end',
-    img: imgTrybetunes,
-    linkGitHub: 'https://github.com/daniellelsilva/trybetunes',
-    linkPage: 'https://daniellelsilva.github.io/trybetunes/#/',
-    linkVideo: trybetunes,
-    technologies: 'React, JSX, CSS3, HTML5',
-    text: 'A proposta do projeto foi criar o TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.'
+    name: "Calculadora de IMC",
+    img: calculadora_imc,
+    linkGitHub: "https://github.com/TheJackIsOnFire/imc_calculator.git",
+    linkPage: "https://imc-calculator-seven-eta.vercel.app/",
+    technologies: "React, JSX, CSS3, HTML5, Vite",
+    text: "O objetivo deste projeto era criar uma calculadora de IMC usando o Vite e o React.",
   },
 
   {
     id: 7,
-    name: 'Tryunfo',
-    moduleCourse: 'Front-end',
-    img: imgTryunfo,
-    linkVideo: tryunfo,
-    linkGitHub: 'https://github.com/daniellelsilva/tryunfo',
-    linkPage: 'https://daniellelsilva.github.io/tryunfo',
-    technologies: 'React, JSX, CSS3, HTML5',
-    text: 'Neste projeto foi desenvolvido um jogo de Super Trunfo. A aplicação possuia tema livre e deveria ser desenvolvido um baralho, sendo possível criar cartas, pré-visualizar a carta, adicionar e remover cartas do baralho, além de possuir três filtros.'
+    name: "Lista de tarefas",
+    img: lista_tarefas,
+    linkGitHub: "https://github.com/TheJackIsOnFire/todo-vue.git",
+    linkPage: "https://todo-vue-rho-pied.vercel.app/",
+    technologies: "React, Vue, CSS3, HTML5",
+    text: "O objetivo deste projeto era criar uma lista de tarefas usando o Vue e o JavaScript.",
   },
 
   {
     id: 6,
-    name: 'Solar system',
-    moduleCourse: 'Front-end',
-    img: imgSolarSystem,
-    linkVideo: solarSystem,
-    linkGitHub: 'https://github.com/daniellelsilva/solar-system',
-    linkPage: 'https://daniellelsilva.github.io/solar-system/',
-    technologies: 'React, JSX, CSS3, HTML5',
-    text: 'Este foi o primeiro projeto do módulo de Front-end e meu primeiro projeto em React, foi desenvolvido um modelo do sistema solar, sendo visualizado todos os planetas e missões espaciais.'
+    name: "Landing Page: DBZ Sparking Zero",
+    img: lp_dbzsz,
+    linkGitHub: "https://github.com/TheJackIsOnFire/landing_page_dbsz.git",
+    linkPage: "https://landing-page-dbsz.vercel.app/",
+    technologies: "React, CSS3, HTML5",
+    text: "O objetivo deste projeto era criar uma landing page com o tema que o aluno escolhesse usando os conhecimentos aprendidos sobre timestamp do JS e animações.",
   },
 
   {
     id: 5,
-    name: 'Shopping cart',
-    moduleCourse: 'Fundamentos',
-    img: imgShoppingCart,
-    linkVideo: shoppingCart,
-    linkGitHub: 'https://github.com/daniellelsilva/shopping-cart',
-    linkPage: 'https://daniellelsilva.github.io/shopping-cart/',
-    technologies: 'JavaScript, CSS3, HTML5',
-    text: 'Primeiro projeto utilizando API! O objetivo do projeto foi desenvolver um carrinho de compras totalmente dinâmico, consumindo dados diretamente de uma API.'
+    name: "Evento da Ebac",
+    img: evento_ebac,
+    linkGitHub: "https://github.com/TheJackIsOnFire/ebac_tech_talks.git",
+    linkPage: "https://ebac-tech-talks-inky-eight.vercel.app/",
+    technologies: "JavaScript, CSS3, HTML5, SCSS",
+    text: "O objetivo deste projeto era aprimorar os conhecimentos no timestamp do JavaScript e aprender a usar algumas animações.",
   },
 
   {
     id: 4,
-    name: 'To do list',
-    moduleCourse: 'Fundamentos',
-    img: imgToDoList,
-    linkVideo: toDoList,
-    linkGitHub: 'https://github.com/daniellelsilva/to-do-list',
-    linkPage: 'https://daniellelsilva.github.io/to-do-list/',
-    technologies: 'JavaScript, CSS3, HTML5',
-    text: 'Projeto do bloco de fundamentos, foi utilizado CSS e Javascript para criar uma aplicação onde é possível adicionar e remover tarefas, marcar tarefa como feita, remover somente itens marcados, salvar a lista e remover todos os itens.'
+    name: "Clone: Planeta dos macacos do Star+",
+    img: clone_planeta_macacos,
+    linkGitHub:
+      "https://github.com/TheJackIsOnFire/planeta_dos_macacos_clone.git",
+    linkPage: "https://planeta-dos-macacos-clone.vercel.app/",
+    technologies: "JavaScript, HTML5, CSS3, SCSS",
+    text: "O objetivo deste projeto era criar um clone da página que o aluno escolhesse usando os conhecimentos de CSS, HTML e JavaScript.",
   },
 
   {
     id: 3,
-    name: 'Pixel-art',
-    moduleCourse: 'Fundamentos',
-    img: imgPixelArt,
-    linkVideo: pixelArt,
-    linkGitHub: 'https://github.com/daniellelsilva/pixel-art',
-    linkPage: 'https://daniellelsilva.github.io/pixel-art/',
-    technologies: 'JavaScript, CSS3, HTML5',
-    text: 'Projeto do bloco de fundamentos, foi utilizada manipulação de DOM e Javascript para criar uma aplicação onde é possível fazer arte com pixels. As cores deveriam ser aleatórias e o quadro deve permitir mudar o número de pixels.'
+    name: "Clone Disney Plus",
+    img: clone_disney_plus,
+    linkGitHub: "https://github.com/TheJackIsOnFire/clone_disneyplus.git",
+    linkPage: "https://clone-disney-plus-lovat-one.vercel.app/",
+    technologies: "JavaScript, CSS3, HTML5",
+    text: "O objetivo deste projeto era criar um clone da página inicial do Disney Plus usando os conhecimentos de CSS, HTML e JavaScript.",
   },
 
   {
     id: 2,
-    name: 'Trybewarts',
-    moduleCourse: 'Fundamentos',
-    img: imgTrybewarts,
-    linkVideo: trybewarts,
-    linkGitHub: 'https://github.com/daniellelsilva/trybewarts',
-    linkPage: 'https://daniellelsilva.github.io/trybewarts/',
-    technologies: 'JavaScript, CSS3, HTML5',
-    text: 'Projeto do bloco de fundamentos, o desafio era criar um formulário HTML para a escola de magia Trybewarts utilizando CSS flexbox e Javascript. O projeto foi desenvolvido em dupla com Nayara Vasconcelos.'
+    name: "Sorteador de números",
+    img: sorteador_numeros,
+    linkGitHub: "https://github.com/TheJackIsOnFire/sorteador_grunt.git",
+    linkPage: "https://sorteador-grunt-jack.vercel.app/",
+    technologies: "JavaScript, CSS3, HTML5",
+    text: "O objetivo deste projeto era criar um sorteador usando o Grunt e o JavaScript.",
   },
 
   {
     id: 1,
-    name: 'Primeiro portfólio',
-    moduleCourse: 'Fundamentos',
-    img: imgPrimeiroPortfolio,
-    linkVideo: primeiroPortfolio,
-    linkGitHub: 'https://github.com/daniellelsilva/primeiro-portfolio',
-    linkPage: 'https://daniellelsilva.github.io',
-    technologies: 'CSS3, HTML5',
-    text: 'Primeiro projeto e primeiro portfólio, esta foi minha primeira experiência com algo relacionado a programação'
-  }
+    name: "Loja de suplementos",
+    img: loja_suplementos,
+    linkGitHub: "https://github.com/TheJackIsOnFire/J-Fire-Supplements",
+    linkPage: "https://j-fire-supplements.vercel.app/",
+    technologies: "CSS3, HTML5",
+    text: "Primeiro projeto Front-End.",
+  },
 ];
-
 
 export default allProjects;

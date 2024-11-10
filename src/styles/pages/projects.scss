@@ -1,10 +1,8 @@
-@import '../main.scss';
+@import "../main.scss";
 
 .dark-background {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.6), 
-    rgba(0, 0, 0, 0.7)
-  ), url('../images/6173955.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/6173955.webp");
   background-size: cover;
 }
 
@@ -12,24 +10,24 @@
   display: flex;
   justify-content: center;
 
-
   &-section {
     display: flex;
-    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideUpEffect 3s ease both;
+    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both,
+      slideUpEffect 3s ease both;
     align-items: center;
-    background-color: $color-green;
-    border-radius: 0 0 1.5rem 1.5rem ;
+    background-color: $color-blue;
+    border-radius: 0 0 1.5rem 1.5rem;
     height: fit-content;
     margin-right: 6.5%;
-    padding: .5% 1%;
-    transition: all .2s;
+    padding: 0.5% 1%;
+    transition: all 0.2s;
 
     @include respond(tab-land) {
       margin-right: 8.4%;
     }
 
     @include respond(tab-port) {
-      border-radius: 1.5rem 1.5rem 0 0 ;
+      border-radius: 1.5rem 1.5rem 0 0;
       width: 70%;
 
       justify-content: space-evenly;
@@ -39,29 +37,29 @@
     }
 
     @include respond(tab-port-small) {
-      padding: .2% 0; 
+      padding: 0.2% 0;
     }
 
     & a {
       font-size: 2.1rem;
       text-decoration: none;
       padding: 1rem 2.5rem;
-      
+
       color: $color-gray-dark;
-      transition: all .3s;
-  
+      transition: all 0.3s;
+
       @include respond(tab-port) {
         font-size: 1.8rem;
       }
-  
+
       @include respond(phone) {
         font-size: 1.8rem;
         padding: 1rem 2rem;
       }
-  
+
       @include respond(phone) {
         font-size: 1.5rem;
-        padding: .8rem 1.7rem;
+        padding: 0.8rem 1.7rem;
       }
 
       &:hover {
@@ -72,7 +70,6 @@
 }
 
 .project {
-
   &-thumbnail-section {
     display: flex;
     flex-flow: row wrap;
@@ -83,9 +80,10 @@
   &-individual-thumbnail {
     align-items: center;
     background-color: $color-gray-dark;
-    box-shadow: 0 4px 8px 0 rgba($color-black, 0.9), 0 6px 20px 0 rgba($color-black, 0.9);
+    box-shadow: 0 4px 8px 0 rgba($color-black, 0.9),
+      0 6px 20px 0 rgba($color-black, 0.9);
     border-radius: 5px;
-    color: $color-green;
+    color: $color-blue;
     display: flex;
     flex-direction: column;
     margin: 1.5%;
@@ -94,28 +92,28 @@
     width: 27%;
 
     @include respond(tab-land) {
-      width: 40%
+      width: 40%;
     }
 
     @include respond(tab-port) {
-      width: 70%
+      width: 70%;
     }
 
     @include respond(phone) {
       margin-top: 10%;
-      width: 90%
+      width: 90%;
     }
 
     & p {
       font-size: 2rem;
       margin-top: 5%;
+      font-weight: 600;
     }
 
     & a {
       text-decoration: none;
       color: $color-white;
     }
-
   }
 
   &-video-icons {
@@ -126,7 +124,7 @@
     width: 100%;
 
     @include respond(tab-port) {
-      width: 100%
+      width: 100%;
     }
 
     .project-btns {
@@ -134,11 +132,12 @@
       border-radius: 50%;
       background-color: darken($color-gray-dark, 4%);
       text-decoration: none;
-      transition: all .4s;
+      transition: all 0.4s;
 
       &:hover {
-        box-shadow: 0 4px 8px 0 rgba($color-black, 0.9), 0 6px 20px 0 rgba($color-black, 0.9);
-        color: $color-green;
+        box-shadow: 0 4px 8px 0 rgba($color-black, 0.9),
+          0 6px 20px 0 rgba($color-black, 0.9);
+        color: $color-blue;
         transform: translateY(-5px) !important;
       }
     }
@@ -148,13 +147,13 @@
     }
   }
 
-
   &-img-individual {
     width: 100%;
   }
 }
 
-.more-info-button, .popup-Close{
+.more-info-button,
+.popup-Close {
   border: none;
   background-color: transparent;
   color: $color-white;
@@ -173,25 +172,26 @@
   justify-content: center;
 
   position: fixed;
-  top:50%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);  
+  transform: translate(-50%, -50%);
 
-  &-text-video-container{
+  &-text-container {
     background-color: rgba($color-black, 0.93);
     border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba($color-black, 0.2), 0 6px 20px 0 rgba($color-black, 0.19);
+    box-shadow: 0 4px 8px 0 rgba($color-black, 0.2),
+      0 6px 20px 0 rgba($color-black, 0.19);
     max-height: 95%;
     max-width: 60%;
     padding: 0 2% 2% 2%;
-  
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     @include respond(tab-land) {
-      max-width: 80%
+      max-width: 80%;
     }
 
     @include respond(tab-port) {
@@ -202,33 +202,6 @@
     @include respond(phone) {
       max-height: 85vh;
       max-width: 90%;
-    }
-
-    & video {
-      max-height: 50vh;
-      max-width: 70%;
-
-      @include respond(tab-land) {
-        max-width: 80%;
-        max-height: 40vh;
-      }
-
-      @include respond(tab-port) {
-        max-height: 35vh;
-        max-width: 80%
-      }
-
-      @include respond(phone) {
-        margin-top: 5%;
-        max-height: 30vh;
-        max-width: 95%;
-      }
-
-      @include respond(phone-small) {
-        margin-top: 5%;
-        max-height: 25vh;
-        width: 95%;
-      }     
     }
   }
 
@@ -246,10 +219,10 @@
   }
 
   & p:nth-child(1) {
-    color: $color-green;
+    color: $color-blue;
     font-size: 2.8rem;
     font-weight: 800;
-    margin-top: 5%;
+    margin-top: -3%;
 
     @include respond(phone) {
       font-size: 2.5rem;
@@ -261,24 +234,6 @@
   }
 
   & p:nth-child(2) {
-    margin-top: 3%;
-    font-size: 1.9rem;
-    font-weight: 400;
-
-    @include respond(tab-port) {
-      font-size: 2.2rem;
-    }
-
-    @include respond(phone) {
-      font-size: 1.7rem;
-    }
-
-    @include respond(phone-small) {
-      font-size: 1.5rem;
-    }
-  }
-
-  & p:nth-child(3) {
     margin-top: 2%;
     font-size: 1.7rem;
     font-weight: 400;
@@ -296,7 +251,7 @@
     }
   }
 
-  & p:nth-child(4) {
+  & p:nth-child(3) {
     font-size: 1.7rem;
     font-weight: 400;
 
@@ -315,16 +270,15 @@
 
   &-info-project-text {
     color: $color-white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 300;
- 
+
     width: 100%;
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    
   }
 
   &-div-close {
@@ -337,16 +291,16 @@
   &-Close {
     font-size: 2rem;
 
-    transition: all .5s;
+    transition: all 0.5s;
   }
 
   &-Close:hover {
-    color: $color-green;
+    color: $color-blue;
   }
 }
 
 .custom-tooltip {
-  background-color: rgba($color-black, .15) !important;
+  background-color: rgba($color-black, 0.15) !important;
   font-size: 1.3rem !important;
   font-weight: 400 !important;
 }
