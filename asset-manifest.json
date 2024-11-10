@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.0bd54ac6.css",
+    "main.js": "/react-portfolio/static/js/main.5418b06d.js",
+    "static/media/bg-1.png": "/react-portfolio/static/media/bg-1.d9a1e0017aae6596f117.png",
+    "static/media/img_profile.jpg": "/react-portfolio/static/media/img_profile.ea722e9c3ba7826d4c7d.jpg",
+    "static/media/6173955.webp": "/react-portfolio/static/media/6173955.2841f407572f1b560cfd.webp",
+    "static/media/loja_suplementos.png": "/react-portfolio/static/media/loja_suplementos.bb170f4ce96df3438d07.png",
+    "static/media/clone_planeta_macacos.png": "/react-portfolio/static/media/clone_planeta_macacos.65153759a8a1ffe1ca9a.png",
+    "static/media/lp_dbzsz.png": "/react-portfolio/static/media/lp_dbzsz.49b70959bf256e0b804d.png",
+    "static/media/clone_disney_plus.png": "/react-portfolio/static/media/clone_disney_plus.e20dd325e215c08c91d8.png",
+    "static/media/efood.png": "/react-portfolio/static/media/efood.2537afe3e68a1ef2966a.png",
+    "static/media/evento_ebac.png": "/react-portfolio/static/media/evento_ebac.2ac89f28552078f9eb08.png",
+    "static/media/bootstrap-icons.woff?": "/react-portfolio/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
+    "static/media/bootstrap-icons.woff2?": "/react-portfolio/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
+    "static/media/lista_contatos.png": "/react-portfolio/static/media/lista_contatos.301bdcacf3f9329cba1e.png",
+    "static/media/calculadora_imc.png": "/react-portfolio/static/media/calculadora_imc.b100435ff506cf3560d1.png",
+    "static/media/sorteador_numeros.png": "/react-portfolio/static/media/sorteador_numeros.4cf222606e2826649501.png",
+    "static/media/lista_tarefas.png": "/react-portfolio/static/media/lista_tarefas.79f8537cf36a366092d3.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.0bd54ac6.css.map": "/react-portfolio/static/css/main.0bd54ac6.css.map",
+    "main.5418b06d.js.map": "/react-portfolio/static/js/main.5418b06d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bd54ac6.css",
+    "static/js/main.5418b06d.js"
+  ]
+}
