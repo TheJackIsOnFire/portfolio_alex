@@ -23,8 +23,8 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/e-food.git",
     linkPage: "https://e-food-ebon.vercel.app/",
     technologies:
-      "Hooks, React, JSX, CSS3, HTML5, Redux, JavaScript, TypeScript, Vite, Redux toolkit query, Eslint, Prittier",
-    text: "Este é o projeto final do curso de Front-End, que integra todo o conhecimento adquirido ao longo do curso, desde os fundamentos de HTML, CSS e JavaScript até as configurações mais avançadas do VS Code, como EditorConfig, Prettier e ESLint. O projeto também abrange as boas práticas de programação, organização do código e o uso de tecnologias mais avançadas, como Vite, TypeScript, React, Redux, Redux Toolkit Query, entre outras. O objetivo do projeto foi desenvolver uma plataforma de delivery que gerenciasse todo o processo de compra, integração e envio de informações para o back-end, proporcionando uma experiência completa e funcional.",
+      "React Hooks, React, CSS3, HTML5, Redux, JavaScript, TypeScript, Vite, Redux toolkit query, Eslint, Prittier",
+    text: "Este projeto final do curso de Front-End reúne todo o conhecimento adquirido ao longo da formação, desde os fundamentos de HTML, CSS e JavaScript até configurações avançadas. Além disso, incorpora boas práticas de programação, organização de código e tecnologias modernas, como Vite, TypeScript, React, Redux e Redux Toolkit Query, entre outras. O objetivo foi desenvolver uma plataforma de delivery que gerencia todo o processo de compra, integrando e enviando informações para o back-end, proporcionando ao usuário uma experiência completa e funcional.",
   },
 
   {
@@ -34,8 +34,8 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/eplay.git",
     linkPage: "https://eplay-rouge-ten.vercel.app/",
     technologies:
-      "Hooks, React, JSX, CSS3, HTML5, Redux, JavaScript, TypeScript, Create React App, Redux toolkit query, Eslint, Prittier",
-    text: "Este projeto foi o modelo para o meu projeto final e usa todas as tecnologias ensinadas no curso de Front-End.",
+      "Hooks, React, CSS3, HTML5, Redux, JavaScript, TypeScript, Create React App, Redux toolkit query, Eslint, Prittier",
+    text: "Este projeto serviu como modelo para o desenvolvimento do meu projeto final e utiliza todas as tecnologias ensinadas ao longo do curso de Front-End.",
   },
 
   {
@@ -46,7 +46,7 @@ const allProjects = [
     linkPage: "https://lista-de-contatos-wine-eight.vercel.app/",
     technologies:
       "Redux, React, JSX, CSS3, HTML5, TypeScript, JavaScript, Vite, Redux toolkit query, Eslint, Prittier",
-    text: "O objetivo deste projeto era criar uma lista de contados usando as tecnologias: Vite, React, TypeScript, Redux e o Redux toolkit query.",
+    text: "O objetivo deste projeto foi desenvolver uma lista de contatos utilizando tecnologias como Vite, React, TypeScript, Redux e Redux Toolkit Query.",
   },
 
   {
@@ -57,7 +57,7 @@ const allProjects = [
     linkPage: "https://minhas-tarefas-sepia.vercel.app/",
     technologies:
       "Create React App, React, CSS3, HTML5, TypeScript, Redux, Redux toolkit query",
-    text: "Esse exercício tinha como objetivo o uso avançado do Redux e do Redux toolkit query além outras tecnologias.",
+    text: "Este exercício teve como objetivo o uso avançado do Redux e do Redux Toolkit Query, além de outras tecnologias.",
   },
 
   {
@@ -67,7 +67,7 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/ebac_sports.git",
     linkPage: "https://ebac-sports-roan.vercel.app/",
     technologies: "Create React App, React, CSS3, HTML5, TypeScript, Redux",
-    text: "Esse exercício tinha como objetivo aprimorar a manipulação de estados e o controle da resposta da API.",
+    text: "Este exercício teve como objetivo aprimorar a manipulação de estados e o controle das respostas da API.",
   },
 
   {
@@ -77,7 +77,7 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/redux-guide.git",
     linkPage: "https://redux-guide-azure.vercel.app/",
     technologies: "Create React App, React, CSS3, HTML5, JavaScript, Redux",
-    text: "Neste exercício eu tive meus primeiros contatos com o Redux e a manipulação de estado.",
+    text: "Neste exercício, tive meus primeiros contatos com o Redux e a manipulação de estado, explorando conceitos fundamentais para o gerenciamento eficiente de dados em aplicações web.",
   },
 
   {
@@ -88,7 +88,7 @@ const allProjects = [
     linkPage: "https://portfolio-react-woad-delta.vercel.app/",
     technologies:
       "React, CSS3, HTML5, Vite, TypeScript, JavaScript, Eslint, Prittier",
-    text: "O objetivo deste projeto era criar um protótipo de portifólio que pudesse alternar entre um tema claro e outro escuro.",
+    text: "O objetivo deste projeto foi desenvolver um protótipo de portfólio com a funcionalidade de alternância entre tema claro e escuro, proporcionando uma experiência de personalização visual para o usuário.",
   },
 
   {
@@ -98,7 +98,7 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/imc_calculator.git",
     linkPage: "https://imc-calculator-seven-eta.vercel.app/",
     technologies: "React, JSX, CSS3, HTML5, Vite",
-    text: "O objetivo deste projeto era criar uma calculadora de IMC usando o Vite e o React.",
+    text: "O objetivo deste projeto foi desenvolver uma calculadora de IMC utilizando Vite e React, proporcionando uma interface interativa e eficiente para o cálculo do Índice de Massa Corporal.",
   },
 
   {
@@ -109,7 +109,7 @@ const allProjects = [
       "https://github.com/TheJackIsOnFire/vue-calculadora-aritmetica.git",
     linkPage: "https://vue-calculadora-aritmetica.vercel.app/",
     technologies: "Vue, CSS3, HTML5, JavaScript, Vite",
-    text: "O objetivo deste projeto era criar uma calculadora aritmética usando os conhecimentos adquiridos pelo aluno.",
+    text: "O objetivo deste projeto foi criar uma calculadora aritmética, aplicando os conhecimentos adquiridos ao longo do curso, com foco em lógica de programação e desenvolvimento de interfaces interativas.",
   },
 
   {
@@ -119,7 +119,7 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/todo-vue.git",
     linkPage: "https://todo-vue-rho-pied.vercel.app/",
     technologies: "Vue, CSS3, HTML5 JavaScript, Vite",
-    text: "O objetivo deste projeto era criar uma lista de tarefas usando o Vue e o JavaScript.",
+    text: "O objetivo deste projeto foi desenvolver uma lista de tarefas utilizando Vue e JavaScript, com o intuito de praticar a manipulação de dados e a criação de interfaces dinâmicas e interativas.",
   },
 
   {
@@ -129,7 +129,7 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/landing_page_dbsz.git",
     linkPage: "https://landing-page-dbsz.vercel.app/",
     technologies: "React, CSS3, HTML5",
-    text: "O objetivo deste projeto era criar uma landing page com o tema que o aluno escolhesse usando os conhecimentos aprendidos sobre timestamp do JS e animações.",
+    text: "O objetivo deste projeto foi criar uma landing page com o tema escolhido pelo aluno, aplicando os conhecimentos adquiridos sobre timestamp em JavaScript e animações, proporcionando uma experiência visualmente atraente e interativa.",
   },
 
   {
@@ -139,7 +139,7 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/ebac_tech_talks.git",
     linkPage: "https://ebac-tech-talks-inky-eight.vercel.app/",
     technologies: "JavaScript, CSS3, HTML5, SCSS",
-    text: "O objetivo deste projeto era aprimorar os conhecimentos no timestamp do JavaScript e aprender a usar algumas animações.",
+    text: "O objetivo deste projeto foi aprimorar os conhecimentos sobre timestamp em JavaScript e aprender a aplicar animações, visando melhorar a interatividade e a experiência do usuário nas aplicações.",
   },
 
   {
@@ -160,7 +160,7 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/clone_disneyplus.git",
     linkPage: "https://clone-disney-plus-lovat-one.vercel.app/",
     technologies: "JavaScript, CSS3, HTML5",
-    text: "O objetivo deste projeto era criar um clone da página inicial do Disney Plus usando os conhecimentos de CSS, HTML e JavaScript.",
+    text: "O objetivo deste projeto foi criar um clone da página inicial do Disney Plus, aplicando os conhecimentos de CSS, HTML e JavaScript para replicar o design e a funcionalidade dessa página de forma fiel e interativa.",
   },
 
   {
@@ -170,7 +170,7 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/sorteador_grunt.git",
     linkPage: "https://sorteador-grunt-jack.vercel.app/",
     technologies: "JavaScript, CSS3, HTML5",
-    text: "O objetivo deste projeto era criar um sorteador usando o Grunt e o JavaScript.",
+    text: "O objetivo deste projeto foi criar um sorteador utilizando Grunt e JavaScript, com o intuito de automatizar tarefas e aplicar lógica de programação para gerar sorteios de forma dinâmica e eficiente.",
   },
 
   {
@@ -180,7 +180,7 @@ const allProjects = [
     linkGitHub: "https://github.com/TheJackIsOnFire/J-Fire-Supplements",
     linkPage: "https://j-fire-supplements.vercel.app/",
     technologies: "CSS3, HTML5",
-    text: "Primeiro projeto Front-End.",
+    text: "Este foi o primeiro projeto Front-End, no qual tive a oportunidade de aplicar os conhecimentos adquiridos em HTML, CSS e JavaScript para criar uma aplicação funcional e interativa.",
   },
 ];
 
