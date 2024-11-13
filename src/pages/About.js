@@ -30,7 +30,7 @@ export default class About extends Component {
                 <p className="about-text-p about-text-p-3">
                   Sou <span> bacharel em Administração </span> e atualmente
                   estou cursando{" "}
-                  <span> Desenvolvimento Full Stack com foco em Python. </span>
+                  <span> Desenvolvimento Full Stack Python. </span>
                   Estou buscando uma oportunidade de estágio onde possa aplicar
                   e expandir minhas habilidades, sempre com o objetivo de unir
                   meus conhecimentos em programação e administração para gerar
@@ -42,8 +42,8 @@ export default class About extends Component {
                   especialmente em JavaScript, TypeScript e React, possuo
                   competências técnicas que abrangem{" "}
                   <span>
-                    HTML, HTML5, CSS, React.js, Redux.js, Python, SQL,
-                    PostgreSQL, Node.js, desenvolvimento web, programação
+                    HTML5, CSS3, React, React Hooks, Styled Components, Redux, Python,
+                    PostgreSQL, Node, Vite, Git, desenvolvimento web, programação
                     orientada a objetos (POO), Linux e lógica de programação.
                   </span>
                 </p>
