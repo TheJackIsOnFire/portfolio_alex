@@ -30,7 +30,7 @@ export default class About extends Component {
                 <p className="about-text-p about-text-p-3">
                   Sou <span> bacharel em Administração desenvolvedor e Full Stack 
                   especializado em Front-end e desenvolvimento web.</span> {' '}
-                  Estou buscando uma oportunidade de estágio onde possa aplicar
+                  Estou buscando uma oportunidade onde possa aplicar
                   e expandir minhas habilidades, sempre com o objetivo de unir
                   meus conhecimentos em programação e administração para gerar
                   valor para a empresa.
