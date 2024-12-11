@@ -28,7 +28,7 @@ export default class About extends Component {
                 </p>
 
                 <p className="about-text-p about-text-p-3">
-                  Sou <span> bacharel em Administração desenvolvedor e Full Stack 
+                  Sou <span> bacharel em Administração e desenvolvedor Full Stack 
                   especializado em Front-end e desenvolvimento web.</span> {' '}
                   Estou buscando uma oportunidade onde possa aplicar
                   e expandir minhas habilidades, sempre com o objetivo de unir
